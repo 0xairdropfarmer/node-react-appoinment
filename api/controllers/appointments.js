@@ -36,7 +36,6 @@ app.all("/*", function(req, res, next) {
     res.status(200).end();
   } else {
     next();
-=======
 var Model = require("../models/index");
 const { Appointment, Slot } = Model;
 const Nexmo = require("nexmo");
