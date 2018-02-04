@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 var path = require("path");
 var favicon = require("serve-favicon");
 var logger = require("morgan");
@@ -95,7 +95,7 @@ const appointmentController = {
         }
       });
     });
->>>>>>> 62b5e0e6e0815c66f398277d3f6303f59ea6f5f7
+
   }
 });
 // view engine setup
