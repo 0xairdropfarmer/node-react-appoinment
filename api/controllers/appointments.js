@@ -45,8 +45,8 @@ const appointmentController = {
         .populate("slots")
         .exec((err, appointment) => res.json(appointment));
 
-      const from = 7016468675;
-      const to = 2347016468675;
+      const from = VIRTUAL_NUMBER;
+      const to = RECIPIENT_NUMBER;
 
       nexmo.message.sendSms(from, to, msg, (err, responseData) => {
         if (err) {
