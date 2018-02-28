@@ -1,2 +1,2 @@
-# apppointment-scheduler-web-react-app
-react Version of the Appointment Scheduler App
+
+ Appointment Scheduler App with Reactjs and Nodejs
